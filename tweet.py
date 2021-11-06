@@ -79,7 +79,7 @@ if __name__ == "__main__":
     login_flg = do_login(driver)
 
     # ツイート
-    sample = "Seleniumから自動ツイート"
+    sample = "カイエン乗りてえ"
     tweet_flag = post_tweet(driver, sample, sample)
 
  
