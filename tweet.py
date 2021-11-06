@@ -24,7 +24,8 @@ def get_driver():
     options = Options()
     # options.add_argument('--headless')
     # ブラウザーを起動
-    driver = webdriver.Chrome(options=options, executable_path='driver/chromedriver')
+    Path = os.environ['PATH']
+    driver = webdriver.Chrome(options=options, executable_path=Path)
  
     return driver
  
